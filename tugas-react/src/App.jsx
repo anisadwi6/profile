@@ -11,7 +11,7 @@ function App() {
         {/* Rute Utama untuk Profil Anisa sesuai instruksi [cite: 83-85] */}
         <Route path="/anisa-dwi-ariyanti" element={<AnisaDwiAriyanti />} />
         <Route path="/latisha" element={<LatishaSyifaPratiwi />}/>
-        <Route path="/nasywa" element={<NasywaPutriRachmitha/>}/>
+        <Route path="/nasywa-putri-rachmitha" element={<NasywaPutriRachmitha/>}/>
         
         <Route path="/" element={<Home />} />
         {/* Halaman Landing agar tidak blank saat pertama buka localhost:5173 */}

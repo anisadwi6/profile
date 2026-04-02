@@ -1,16 +1,23 @@
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import LatishaSyifaPratiwi from "./pages/LatishaSyifaPratiwi";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import AnisaDwiAriyanti from "./pages/AnisaDwiAriyanti";
+import LatishaSyifaPratiwi from "./pages/LatishaSyifaPratiwi.jsx";
+import NasywaPutriRachmitha from "./pages/NasywaProfile.jsx"
+import Home from './pages/home.jsx'
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <Routes>
-        {/* Rute Utama untuk Profil Latisha sesuai instruksi [cite: 83-85] */}
-        <Route path="/latisha" element={<LatishaSyifaPratiwi />} />
+        {/* Rute Utama untuk Profil Anisa sesuai instruksi [cite: 83-85] */}
+        <Route path="/anisa-dwi-ariyanti" element={<AnisaDwiAriyanti />} />
+        <Route path="/latisha" element={<LatishaSyifaPratiwi />}/>
+        <Route path="/nasywa-putri-rachmitha" element={<NasywaPutriRachmitha/>}/>
+        
         <Route path="/" element={<Home />} />
-
+        {/* Halaman Landing agar tidak blank saat pertama buka localhost:5173 */}
+        
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
 
