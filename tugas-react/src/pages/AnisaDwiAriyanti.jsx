@@ -6,13 +6,16 @@ import { useParams, Link } from 'react-router-dom'
 export default function AnisaDwiAriyanti() {
   return (
     <div className="min-h-screen bg-pink-50 py-8 px-4 md:py-16">
-      <div className="max-w-6xl mx-auto bg-white rounded-3xl shadow-2xl overflow-hidden border border-pink-100">
+      <div className="max-w-6xl mx-auto bg-white rounded-3xl shadow-2xl overflow-hidden border border-pink-100"
+>
         
         {/* Banner Pink */}
-        <div className="bg-pink-500 h-32 md:h-56">
-          <img src={bgPink} alt="bg"/>
+        {/* <div className="bg-pink-500 h-32 md:h-56"> */}
+          {/* <img src={bgPink} alt="bg"/> */}
+        {/* </div> */}
+        <div className="h-52 md:h-56" style={{ backgroundImage: `url(${bgPink})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
         </div>
-        
+
         <div className="relative px-6 pb-12 md:px-12 md:pb-16">
           
           {/* foto */}
