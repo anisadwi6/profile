@@ -7,7 +7,7 @@ const anggota = [
         inisial: "NP",
         warna: "bg-pink-100 text-pink-800",
         jabatan: "Anggota 1",
-        path:"/nasywa"
+        path:"/nasywa-putri-rachmitha"
     },
     {
         nama: "Latisha Syifa Pratiwi",
